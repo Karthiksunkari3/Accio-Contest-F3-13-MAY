@@ -1,0 +1,64 @@
+body{
+    background-color:black;
+    color:black;
+}
+    
+nav{
+    text-align: center;
+    color: rgb(23, 181, 26);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-top: 30px;
+}
+#btn{
+    width: 150px;
+    padding: 20px;
+    font-size:20px;
+    margin-left: 200px;
+    background-color: rgb(28, 65, 39);
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#table2 tbody img{
+width: 100px;
+height: 90px;
+}
+
+table{
+    margin: 20px;
+    font-size: 20px;
+    color: black;
+}
+table td{
+    text-align: center;
+    border: 2px solid rgb(61, 63, 66);
+    border-radius: 20px;
+    
+}
+table th{
+    border: 2px solid rgb(248,250,253);
+    color: aliceblue;
+    background-color:rgb(88, 92, 100);
+}
+#table1{
+    background-color: rgb(243,246,252);
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+#table2{
+    background-color: rgb(243,246,252);
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+#table3{
+    background-color: rgb(243,246,252);
+    border-collapse: collapse;
+    border-radius: 20px;
+}
